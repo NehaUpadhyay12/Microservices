@@ -2,7 +2,7 @@
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # https://devcenter.wercker.com/overview-and-core-concepts/containers/
-box: microsoft/dotnet:3.1-sdk
+box: microsoft/dotnet:2.0.0-sdk
 no-response-timeout: 10
 build:
   steps:    
